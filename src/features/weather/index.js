@@ -21,7 +21,7 @@ export const Weather = () => {
                 onChange={(e) => setSity(e.target.value)}
             />
             <Button onClick={featchWeather}>Sprawdz pogode</Button>
-            {Weather && (
+            {weather && (
                 <Info>
                     <h2>{weather.name}, {weather.sys.country}</h2>
                     <p>{weather.weather[0].description}</p>
