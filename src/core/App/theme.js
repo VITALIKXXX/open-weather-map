@@ -4,4 +4,14 @@ export const theme = {
     accent: "#61dafb"
 };
 
-export default theme;
+export const darkTheme = {
+    bg: "#282c34",
+    text: "#ffffff",
+    accent: "#61dafb"
+};
+
+export const lightTheme = {
+    bg: "#ffffff",
+    text: "#000000",
+    accent: "#ff9800",
+};
