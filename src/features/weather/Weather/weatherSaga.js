@@ -12,6 +12,6 @@ function* fetchWeatherSaga(action) {
     }
 }
 
-export function* fetchWeatherSaga() {
+export function* watchWeatherSaga() {
     yield takeLatest(fetchWeatherStart.type, fetchWeatherSaga);
 }
