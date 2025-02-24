@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { getWeather } from "./WeatherService";
 import { Container, Input, Button, Info } from "./styled";
 
 export const Weather = () => {
     const [city, setSity] = useState("");
-    const [weather, setWeather] = useState(null);
+    const dispatch = useDispatch();
+    const { data, loading, error } = useSelector((state) => state.weather);
 
     const featchWeather = async () => {
         if (!city) return;
