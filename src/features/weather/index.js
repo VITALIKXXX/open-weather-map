@@ -1,17 +1,16 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getWeather } from "./WeatherService";
+import { fetchWeatherStart } from "./Weather/weatherSlice";
 import { Container, Input, Button, Info } from "./styled";
 
 export const Weather = () => {
-    const [city, setSity] = useState("");
+    const [city, setCity] = useState("");
     const dispatch = useDispatch();
     const { data, loading, error } = useSelector((state) => state.weather);
 
-    const featchWeather = async () => {
+    const fetchWeather = async () => {
         if (!city) return;
-        const data = await getWeather(city);
-        setWeather(data);
+        dispatch(fetchWeatherStart(city));
     };
 
     return (
@@ -20,14 +19,17 @@ export const Weather = () => {
                 type="text"
                 placeholder="Wpisz miasto..."
                 value={city}
-                onChange={(e) => setSity(e.target.value)}
+                onChange={(e) => setCity(e.target.value)}
             />
-            <Button onClick={featchWeather}>Sprawdz pogode</Button>
-            {weather && (
+            <Button onClick={fetchWeather} disabled={loading}>
+                {loading ? "Ładowanie..." : "Sprawdz pogode"}
+            </Button>
+            {error && <p style={{ color: "red" }}>Błąd: {error}</p>}
+            {data && (
                 <Info>
-                    <h2>{weather.name}, {weather.sys.country}</h2>
-                    <p>{weather.weather[0].description}</p>
-                    <p>Temperatura: {weather.main.temp}°C</p>
+                    <h2>{data.name}, {data.sys.country}</h2>
+                    <p>{data.weather[0].description}</p>
+                    <p>Temperatura: {data.main.temp}°C</p>
                 </Info>
             )}
         </Container>
