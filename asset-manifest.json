@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/VITALIKXXX/open-weather-map/static/js/main.d6fc3408.js",
-    "static/js/488.9ba3bb28.chunk.js": "/VITALIKXXX/open-weather-map/static/js/488.9ba3bb28.chunk.js",
-    "index.html": "/VITALIKXXX/open-weather-map/index.html",
-    "main.d6fc3408.js.map": "/VITALIKXXX/open-weather-map/static/js/main.d6fc3408.js.map",
-    "488.9ba3bb28.chunk.js.map": "/VITALIKXXX/open-weather-map/static/js/488.9ba3bb28.chunk.js.map"
+    "main.js": "/static/js/main.1e4c473c.js",
+    "static/js/488.9ba3bb28.chunk.js": "/static/js/488.9ba3bb28.chunk.js",
+    "index.html": "/index.html",
+    "main.1e4c473c.js.map": "/static/js/main.1e4c473c.js.map",
+    "488.9ba3bb28.chunk.js.map": "/static/js/488.9ba3bb28.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d6fc3408.js"
+    "static/js/main.1e4c473c.js"
   ]
 }
