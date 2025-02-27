@@ -1,3 +1,8 @@
+## Demo
+[open-weather-map](https://vitalikxxx.github.io/open-weather-map/)
+
+![Animation](https://github.com/VITALIKXXX/open-weather-map/blob/3eaab96a4a4752a175f7a726cd20fc97be1448b3/Animation%20%20NEWwww1.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
