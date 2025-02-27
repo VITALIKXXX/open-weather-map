@@ -2,7 +2,7 @@
   "name": "open-weather-map",
   "version": "0.1.0",
   "private": true,
-  "weather-app": "https://vitalikxxx.github.io/open-weather-map/",
+  "homepage": "https://vitalikxxx.github.io/open-weather-map/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
     "axios": "^1.7.9",
