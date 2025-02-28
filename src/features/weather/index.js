@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchWeatherStart } from "./Weather/weatherSlice";
 import { Container, Input, Button, Info } from "./styled";
+import WeatherAnimation from "../../common/WeatherAnimation";
 
 export const Weather = () => {
     const [city, setCity] = useState("");
@@ -28,6 +29,7 @@ export const Weather = () => {
             {data && (
                 <Info>
                     <h2>{data.name}, {data.sys.country}</h2>
+                    <WeatherAnimation weather={data.weather[0].main} />
                     <p>{data.weather[0].description}</p>
                     <p>Temperatura: {data.main.temp}°C</p>
                 </Info>
