@@ -1,3 +1,16 @@
+# Weather App 🌦️
+
+This is a simple React-based weather application that fetches real-time weather data from OpenWeatherMap API.  
+It allows users to search for a city and view current weather conditions, including temperature, description, and location details.
+
+## Features 🚀
+- 🌍 Search for weather by city name  
+- 🌡️ Displays temperature, weather condition, and location  
+- 🎨 Supports light and dark theme  
+- ⚙️ State management with Redux and Redux-Saga  
+- 💅 Styled with Styled Components  
+
+
 ## Demo
 [open-weather-map](https://vitalikxxx.github.io/open-weather-map/)
 
