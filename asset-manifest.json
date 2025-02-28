@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/open-weather-map/static/js/main.fecd831d.js",
+    "main.js": "/open-weather-map/static/js/main.ad22608b.js",
     "static/js/488.9ba3bb28.chunk.js": "/open-weather-map/static/js/488.9ba3bb28.chunk.js",
     "index.html": "/open-weather-map/index.html",
-    "main.fecd831d.js.map": "/open-weather-map/static/js/main.fecd831d.js.map",
+    "main.ad22608b.js.map": "/open-weather-map/static/js/main.ad22608b.js.map",
     "488.9ba3bb28.chunk.js.map": "/open-weather-map/static/js/488.9ba3bb28.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.fecd831d.js"
+    "static/js/main.ad22608b.js"
   ]
 }
