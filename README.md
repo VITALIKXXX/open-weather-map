@@ -14,7 +14,7 @@ It allows users to search for a city and view current weather conditions, includ
 ## Demo
 [open-weather-map](https://vitalikxxx.github.io/open-weather-map/)
 
-![Animation](https://github.com/VITALIKXXX/open-weather-map/blob/3eaab96a4a4752a175f7a726cd20fc97be1448b3/Animation%20%20NEWwww1.gif)
+![Animation](https://github.com/VITALIKXXX/open-weather-map/blob/c6a7efed9f6b6031a1f2394bf1c002664e7bc5ed/Animation%20%20NEWwww1.gif)
 
 # Getting Started with Create React App
 
